@@ -4,9 +4,9 @@ let playerScore = 0;
 function game() {
     while (playerScore < 5 && computerScore < 5) {
         singleRound();
-    } if (playerScore <= 5) {
+    } if (playerScore === 5) {
         alert("You win. Go touch grass.")
-    } else if (computerScore <= 5) {
+    } else if (computerScore === 5) {
         alert("You lose. Get gud.")
     }
 }
