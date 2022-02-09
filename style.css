@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: #be9fbf;
+    margin: 0;
+}
+
+.header {
+    background-color: #5c5174;
+    padding: 40px;
+}
+
+#container {
+    width: 100%;
+}
+
+img {
+    height: 150px;
+    width:  150px;
+    border-style: groove;
+    border-color: #5c5174;
+    border-width: 5px;
+}
+
+button {
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5%;
+}
+
+button:active {
+    background: #5555553b;
+    outline: none;
+}
+
+
+#rock {
+    margin: 30px;
+}
+
+#paper {
+    margin: 30px;
+}
+
+#scissors {
+    margin: 30px;
+}
+
+#scoreBoard {
+    margin: 1%;
+}
+
+#results {
+    padding: 20px, 20px 0, 20px;
+}
+
+#playerScore {
+    padding: 20px;
+}
+
+#computerScore {
+    padding: 20px;
+}
+
+.board {
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+}
